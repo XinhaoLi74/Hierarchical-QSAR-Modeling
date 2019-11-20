@@ -19,3 +19,18 @@ The curated training and test data are avaiable in [train_test_sets](https://git
 8. Build hierarchial models with optimal hyperparameters: [Hierarchical_models.ipynb](https://github.com/XinhaoLi74/Hierarchical-QSAR-Modeling/blob/master/notebooks/Hierarchical_models.ipynb).
 ### Model Evaluation
 9. Evaluate cross-validation and test set performance: [Model_evaluation.ipynb](https://github.com/XinhaoLi74/Hierarchical-QSAR-Modeling/blob/master/notebooks/Model_evaluation.ipynb).
+
+## GUI
+![](images/GUI.gif)
+### Installation 
+
+`
+conda env create -f hqsar_env.yml
+pip install streamlit
+`
+
+Run the GUI:
+
+`
+streamlit run GUI.py
+`

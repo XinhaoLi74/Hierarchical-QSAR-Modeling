@@ -1,0 +1,14 @@
+name: hqsar
+channels:
+  - defaults
+dependencies:
+  - matplotlib
+  - scikit-learn
+  - jupyter
+  - rdkit
+  - pandas
+  - jupyterlab
+  - plotly
+  - bokeh
+prefix: C:\Users\xinha\Anaconda3\envs\hqsar
+
