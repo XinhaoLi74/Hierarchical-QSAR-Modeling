@@ -24,13 +24,13 @@ The curated training and test data are avaiable in [train_test_sets](https://git
 ![](images/GUI.gif)
 ### Installation 
 
-`
+```shell
 conda env create -f hqsar_env.yml
 pip install streamlit
-`
+```
 
 Run the GUI:
 
-`
+```shell
 streamlit run GUI.py
-`
+```
